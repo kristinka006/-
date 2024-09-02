@@ -1,10 +1,10 @@
 while True:
     try:
-        a= int(input("Введите первое число: "))
-        b= int(input("Введите второе число: "))
-        act = input("Выберите дальнейшее действие: (+, -, *, /, **):")
+        a= int(input("Введите первую циферку: "))
+        b= int(input("Введите вторую циферку: "))
+        act = input("Выберите дальнейшее действие: (+, -, *, /,):")
     except:
-        print("Ошибка")
+        print("Упс, что-то не так")
     if act == '+':
         print(a+b)
         break
@@ -17,6 +17,4 @@ while True:
     elif act == '/':
         print(a/b)
         break
-    elif act == '**':
-        print(a**b)
-        break
+   
